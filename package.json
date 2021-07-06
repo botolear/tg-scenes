@@ -1,0 +1,33 @@
+{
+    "name": "@botol/tg-scenes",
+    "version": "0.0.4",
+    "main": "build/stage.js",
+    "license": "MIT",
+    "private": false,
+    "author": {
+        "name": "le-ar",
+        "url": "https://github.com/le-ar/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/botolear/tg-scenes"
+    },
+    "keywords": [
+        "dipo",
+        "composer",
+        "telegram",
+        "tg",
+        "bot"
+    ],
+    "scripts": {
+        "prepublish": "tsc"
+    },
+    "devDependencies": {
+        "@types/node": "^15.0.3",
+        "typescript": "^4.2.4"
+    },
+    "dependencies": {
+        "@botol/tg-bot": "^0.x",
+        "@botol/tg-session": "^0.0.3"
+    }
+}
